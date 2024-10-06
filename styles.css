@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+html{
+    scroll-padding: 5rem;
+}
+
+
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+
+}
+
+
+
+header{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;    
+}
+
+
+.logo{
+    text-decoration: none;
+    color:#01073f ;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.7em;
+}
+
+
+
+.navigation a{
+    color: #01073f;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 30px;
+    white-space: nowrap;
+}
+
+.navigation a:hover{
+    color:#b400d8;
+}
+
+section{
+    text-align: center;
+}
+
+.section{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-color: #0016da;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+
+.section h2{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #84f7ff;
+}
+
+section h2 span{
+    display: inline-block;
+    margin-top: -10px;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+section h3{
+    color: #84f7ff;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.title{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #0011ad;
+    padding-top: 10px;
+}
+
+.h3-2{
+    color: #000747;
+}
+
+.container {
+    padding: 20px;
+    background-color: #f8f8f8; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    font-size: 1.1em;
+    font-weight: 700;
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: center; 
+}
+
+th {
+    font-weight: 800;
+    font-size: 1.4em;
+    background-color: #f2f2f2; 
+}
+
+caption{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #0011ad;
+}
+
+hr{
+    padding-top: 10px;
+}

@@ -1,0 +1,59 @@
+label{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: rgb(0, 0, 196);
+}
+
+form{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button{
+    color: #ffffff;
+    background-color: #1900ff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    transition: 0.7s ease;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    background-color: #0f0094;
+    transform: scale(1.1);
+}
+
+.href{
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #1900ff;
+}
+
+.href:hover{
+    color: aqua;
+}
+
+header{
+    background-color: rgb(2, 0, 143);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;   
+}
+
+.login{
+    text-decoration: none;
+    color:#ffffff ;
+    font-weight: 800;
+    font-size: 1.7em;
+}
